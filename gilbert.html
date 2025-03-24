@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilbert Andrew Tetteh - Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+        
+        :root {
+            --primary-color: #2962FF;
+            --secondary-color: #1565C0;
+            --accent-color: #FFC400;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            text-align: center;
+            padding: 3em 1em;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            z-index: 1;
+            position: relative;
+            color: white;
+        }
+        
+        .header-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('/api/placeholder/1200/300') center/cover no-repeat;
+            opacity: 0.2;
+            z-index: 0;
+        }
+        
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 80vh;
+            padding: 2em;
+        }
+        .main-nav {
+            position: absolute;
+            bottom: 1em;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 1em;
+            z-index: 2;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 1em;
+        }
+        .content {
+            flex: 1;
+            max-width: 800px;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 2em;
+            color: var(--primary-color);
+            margin-bottom: 0.5em;
+        }
+        
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 2em auto;
+            border: 4px solid var(--primary-color);
+        }
+        
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 1.5em;
+            text-align: left;
+            padding: 0 1em;
+        }
+        
+        .cta-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1em;
+            margin: 2em 0;
+        }
+        
+        .button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .button:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+        
+        .button.accent {
+            background-color: var(--accent-color);
+            color: #333;
+        }
+        
+        .button.accent:hover {
+            background-color: #FFB300;
+        }
+        
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 3em;
+            flex-wrap: wrap;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 1em;
+            width: 250px;
+            margin: 1em;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-icon {
+            font-size: 2em;
+            color: var(--primary-color);
+            margin-bottom: 0.5em;
+        }
+        
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+            
+            .content {
+                margin-bottom: 2em;
+            }
+            
+            p {
+                text-align: center;
+            }
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-bg"></div>
+        <nav class="main-nav">
+            <a href="jason.html" class="button">Jason</a>
+            <a href="sedem.html" class="button">Sedem</a>
+            <a href="andre.html" class="button">Andre</a>
+            <a href="lois.html" class="button">Lois</a>
+        </nav>
+        <h1>Gilbert Andrew Tetteh</h1>
+        <p class="subtitle">Class of 2026 | Computer Science Major</p>
+    </header>
+    <main>
+        <div class="content">
+            <div class="cta-container">
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon"><i class="fas fa-code"></i></div>
+                    <h3>Aspiring Dev Ops ENgineer</h3>
+                    <p></p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Education</h3>
+                    <p>Ashesi University, B.Sc. in Computer Science<br></p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Passions</h3>
+                    <p>AI/ML • Cloud Computing • Open Source • Tech Education</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
