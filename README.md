@@ -6,3 +6,7 @@ Sedem Abla Agudetse
 Andre Akrofi Ayiku
 Lois Ofoe-Amesackey
 Gilbert Tetteh
+
+
+
+link to repository: https://github.com/jadarko55/software_engineering_lab6
