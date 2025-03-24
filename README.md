@@ -4,5 +4,5 @@ Group Members:
 Jason Agyeman-Darko
 Sedem Abla Agudetse
 Andre Akrofi Ayiku
-Lois Ofoe-Amesakye
+Lois Ofoe-Amesackey
 Gilbert Tetteh
